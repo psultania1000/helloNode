@@ -3,7 +3,7 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
+        title #{docTitle}
         link(rel="stylesheet", href="/css/main.css")
         link(rel="stylesheet", href="/css/product.css")
 
@@ -14,4 +14,4 @@ html(lang="en")
                     li.main-header__item
                         a.active(href="/") Shop
                     li.main-header__item
-                        a.active(href="/admin/add-product") Add Product
+                        a(href="/admin/add-product") Add Product
